@@ -18,7 +18,7 @@ vars:
   snapchat_ads__campaign_hourly_report_passthrough_metrics: []
 models:
   snapchat_ads_source:
-    +schema: snapchat_ads_source
+    +schema: dw_marketing_sources
     +materialized: table
     tmp:
       +materialized: view
